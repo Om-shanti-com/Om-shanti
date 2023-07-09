@@ -1,0 +1,24 @@
+<iframe id="JotFormIFrame-231884404638462" title="Om shanti" src="https://www.jotform.com/app/231884404638462?appEmbedded=1" style="height:600px; width:375px; border: 0;"></iframe
+
+buildscript {
+  repositories {
+    // Check that you have the following line (if not, add it):
+  
+    google()  // Google's Maven repository
+  }
+  dependencies {
+    ...
+    // Add this line
+  
+    classpath 'com.google.gms:google-services:4.3.3'
+    ...
+  }
+}
+
+allprojects {
+  ...
+  repositories {
+    // Check that you have the following line (if not, add it):
+  
+    google()  // Google's Maven repository
+  }
